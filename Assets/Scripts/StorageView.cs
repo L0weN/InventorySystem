@@ -35,7 +35,7 @@ namespace Mert.Inventory
             }
         }
 
-        public abstract IEnumerator InitializeView(int size = 30);
+        public abstract IEnumerator InitializeView(int size = 20);
 
         static void OnPointerDown(Vector2 position, Slot slot)
         {

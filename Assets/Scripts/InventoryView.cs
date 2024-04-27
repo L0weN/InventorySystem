@@ -9,7 +9,7 @@ namespace Mert.Inventory
     {
         [SerializeField] string panelName = "Inventory";
 
-        public override IEnumerator InitializeView(int size = 30)
+        public override IEnumerator InitializeView(int size = 20)
         {
             Slots = new Slot[size];
             root = UIDocument.rootVisualElement;

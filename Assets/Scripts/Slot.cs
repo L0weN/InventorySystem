@@ -41,7 +41,7 @@ namespace Mert.Inventory
 
         public void Remove()
         {
-            ItemID = SeralizableGuid.Empty;
+            ItemId = SerializableGuid.Empty;
             Icon.image = null;
         }
     }

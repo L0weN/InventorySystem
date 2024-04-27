@@ -12,6 +12,7 @@
 }
 
 .inventory{
+	background-image : url('/Assets/GUI_Parts/Gui_parts/big_background.png');
 	width: 300px;
 	padding: 10px;
 	max-height: 500px;
@@ -25,7 +26,7 @@
 	height: 70px;
 	justify-content: center;
 	align-items: center;
-	-unity-slice-scale: 0.5;
+	background-image: url('/Assets/GUI_Parts/Gui_parts/name_bar.png');
 }
 
 Label{
@@ -38,7 +39,7 @@ Label{
 	left: -17px;
 	width: 326px;
 	height: 520px;
-	-unity-slice-scale: 0.5;
+	background-image: url('/Assets/GUI_Parts/Gui_parts/Frame_big.png');
 }
 
 .slotsContainer{
@@ -63,8 +64,7 @@ Label{
 	left: 0;
 	width: 60px;
 	height: 60px;
-	border-width;
-	-unity-slice-scale: 0.8;
+	background-image: url('/Assets/GUI_Parts/Gui_parts/big_roundframe.png');
 }
 
 .slotIcon{
